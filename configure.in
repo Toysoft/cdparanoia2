@@ -3,8 +3,8 @@ AC_INIT(interface/interface.c)
 VERSION="10.3pre" 
 AC_SUBST(VERSION) 
 
-cp $srcdir/configure.guess $srcdir/config.guess
-cp $srcdir/configure.sub $srcdir/config.sub
+#cp $srcdir/configure.guess $srcdir/config.guess
+#cp $srcdir/configure.sub $srcdir/config.sub
 
 AC_CANONICAL_HOST
 

@@ -22,6 +22,10 @@
 #include "common_interface.h"
 #include "utils.h"
 
+#ifndef PATH_MAX
+#define PATH_MAX 4096
+#endif
+
 #define MAX_DEV_LEN 20 /* Safe because strings only come from below */
 /* must be absolute paths! */
 static char *scsi_cdrom_prefixes[]={
